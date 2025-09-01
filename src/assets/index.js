@@ -25,11 +25,17 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import godzie from "./company/godzie.png";
+import frontendsimplified from "./company/fsimplified.png"
+import davy from "./company/davy.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import booklibrary from "./booklibrary.png"
+import lofiplayer from "./lofiplayer.png"
+import survivor from "./survivor.png"
+import travelr from "./travelr.png"
+import link from "./link.png"
 export {
   logo,
   backend,
@@ -59,4 +65,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  godzie,
+  frontendsimplified,
+  davy,
+  booklibrary,
+  lofiplayer, 
+  survivor,
+  travelr,
+  link
 };
