@@ -146,7 +146,7 @@ const experiences = [
     company_name: "Davy Computer",
     icon: davy,
     iconBg: "#383E56",
-    date: "Dec 2021 - Fed 2022",
+    date: "Dec 2021 - Feb 2022",
     points: [
       "Worked independently to design a website for Davy Computer.",
       "Overwrote the template in Squarespace and improved search engine to the website using JavaScript ES6 (jQuery), CSS3 and HTML5.",
