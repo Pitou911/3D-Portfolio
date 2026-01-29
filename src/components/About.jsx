@@ -38,9 +38,10 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          I'm a 22 year-old Cambodian student in University of Debrecen, Hungary with a strong passion for developing websites with great user experiences.
-          I am seeking an internship in this field. My portfolio showcases examples of my work and highlights my technical skills and qualifications. Thank you for taking the time to review my portfolio.
-      </motion.p>
+          I am a 22-year-old Cambodian graduate of the University of Debrecen, Hungary, with a strong passion for developing websites that deliver excellent user experiences. 
+          I am seeking a full-time position in this field. 
+          My portfolio highlights selected projects that demonstrate my technical skills and qualifications. 
+          Thank you for taking the time to review my work.</motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
