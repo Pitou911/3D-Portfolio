@@ -1,4 +1,4 @@
-import { s } from "framer-motion/client";
+import { link, s } from "framer-motion/client";
 import {
   mobile,
   backend,
@@ -24,6 +24,7 @@ import {
   booklibrary,
   travelr,
   survivor,
+  carenest,
 } from "../assets";
 
 export const navLinks = [
@@ -119,6 +120,7 @@ const experiences = [
   {
     title: "Software Engineer Intern",
     company_name: "GODZIE Sport Tech",
+    link: "https://www.godzie.com/",
     icon: godzie,
     iconBg: "#383E56",
     date: "May 2023 - Sep 2023",
@@ -132,6 +134,7 @@ const experiences = [
   {
     title: "Frontend Developer Intern",
     company_name: "Frontend Simplified",
+    link: "https://pitou-internship.vercel.app/",
     icon: frontendsimplified,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Apr 2023",
@@ -144,6 +147,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Davy Computer",
+    link: "https://www.davy-computer.com/",
     icon: davy,
     iconBg: "#383E56",
     date: "Dec 2021 - Feb 2022",
@@ -157,6 +161,28 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Carenest Project",
+    description:
+      "CareNest is a React-based web application that uses AI to predict possible diseases based on the symptoms provided by the user. It also allows students to register, log in, and track their symptom history, with precautionary advice based on the diagnosis.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "java springboot",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carenest,
+    source_code_link: "https://github.com/Pitou911/CareNest-AI-Disease-Prediction-App",
+    showcase_link: "https://www.youtube.com/watch?v=mSsVvWHA_oY",
+  },
   {
     name: "The Lofi Player Project",
     description:

@@ -36,6 +36,7 @@ import lofiplayer from "./lofiplayer.png"
 import survivor from "./survivor.png"
 import travelr from "./travelr.png"
 import link from "./link.png"
+import carenest from "./carenest.png"
 export {
   logo,
   backend,
@@ -72,5 +73,6 @@ export {
   lofiplayer, 
   survivor,
   travelr,
-  link
+  link,
+  carenest
 };
